@@ -49,7 +49,7 @@ const poles = [
       {
         id: 3,
         name: "Paul Hémique",
-        role: "membre",
+        role: "Membre",
       },
     ],
   },
@@ -59,7 +59,7 @@ const poles = [
     members: [
       {
         id: 1,
-        name: "Agate Zeblouze",
+        name: "Agathe Zeblouze",
         role: "Responsable du pôle",
       },
       {
@@ -81,7 +81,7 @@ const poles = [
       {
         id: 2,
         name: "Lili Coptère",
-        role: "Responsable adjoint",
+        role: "Responsable adjointe",
       },
     ],
   },

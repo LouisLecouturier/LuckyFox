@@ -81,7 +81,6 @@
   position: relative;
   margin: 40px auto;
   aspect-ratio: 1;
-  background-color: $text-400;
   width: clamp(200px, 50%, 600px);
   opacity: 0;
   animation: opacity 0.5s 1.24s ease forwards;
@@ -89,6 +88,7 @@
 
 .image {
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .wanted {

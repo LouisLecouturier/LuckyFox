@@ -7,7 +7,7 @@ import { useState } from "react";
 import Member from "../Member/Member";
 import Image from "next/image";
 
-const Wanted = ({ id, name, position, text }) => {
+const Wanted = ({ name, position, text }) => {
   const [isShown, setIsShown] = useState(null);
 
   const [first] = useSound("/sounds/first.mp3", {
@@ -43,7 +43,7 @@ const Wanted = ({ id, name, position, text }) => {
       {isShown && (
         <Member
           name={name}
-          img={`/${id}.webp`}
+          img={`/images/members/${name.replace(' ', '_')}.webp`}
           position={position}
           text={text}
           setIsShown={setIsShown}
@@ -63,7 +63,7 @@ const Wanted = ({ id, name, position, text }) => {
           <div className={styles.imgContainer}>
               <Image
                 className={styles.img}
-                src={`/${id}.webp`}
+                src={`/images/members/${name.replace(' ', '_')}.webp`}
                 alt={name}
                 fill
               />
