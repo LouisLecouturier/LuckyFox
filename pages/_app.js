@@ -1,6 +1,5 @@
 import "../styles/globals.scss";
 
-import "moment/locale/fr";
 import { Raleway } from "next/font/google";
 import localFont from "next/font/local";
 
