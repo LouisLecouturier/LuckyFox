@@ -27,7 +27,7 @@ export default function Home() {
 
       <Hero
         title={"Lucky Fox"}
-        text={"Liste BDE FGES 202-2023"}
+        text={"Liste BDE FGES 2022-2023"}
         isIndex={true}
       />
 
