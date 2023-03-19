@@ -43,7 +43,7 @@ const Wanted = ({ name, position, text }) => {
       {isShown && (
         <Member
           name={name}
-          img={`/images/members/${name.replace(' ', '_')}.webp`}
+          img={`/images/members/${name.toLowerCase().replace(' ', '_')}.webp`}
           position={position}
           text={text}
           setIsShown={setIsShown}
@@ -63,7 +63,7 @@ const Wanted = ({ name, position, text }) => {
           <div className={styles.imgContainer}>
               <Image
                 className={styles.img}
-                src={`/images/members/${name.replace(' ', '_')}.webp`}
+                src={`/images/members/${name.toLowerCase().replace(' ', '_')}.webp`}
                 alt={name}
                 fill
               />
