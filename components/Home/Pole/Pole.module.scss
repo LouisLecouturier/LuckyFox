@@ -1,0 +1,38 @@
+@import "../../../styles/variables.scss";
+
+.container {
+  margin: 40px 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: calc(1.3rem + 0.5vw);
+  margin: 0;
+  column-gap: 12px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  margin: 40px 0;
+  overflow: visible;
+}
+
+.listContainer {
+  max-height: 100%;
+  overflow-y: hidden;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 520px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+  }
+}

@@ -1,0 +1,102 @@
+@import "./variables.scss";
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: $text-100;
+  background-color: $white;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--raleway), sans-serif;
+
+}
+
+h1,
+h2 {
+  font-family: var(--yermo), serif;
+}
+
+
+
+.full-width {
+  width: 100%;
+}
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 10vw;
+  min-height: 80svh;
+  overflow: visible;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: $text-900;
+
+  p {
+    font-weight: 500;
+    font-size: clamp(1rem, 1rem + 2vw, 1.08rem);
+  }
+}
+.dark {
+   background-color: $text-200;
+   color: $white;
+ }
+
+.sectionTitle {
+  font-size: calc(2rem + 0.5vw);
+  margin: 0;
+}
+
+.sectionRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  column-gap: clamp(40px, 8vw, 120px);
+  align-content: center;
+
+  & > div {
+    flex: 1 ;
+  }
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sectionLink {
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .sectionRow {
+    flex-direction: row;
+  }
+}
+
+

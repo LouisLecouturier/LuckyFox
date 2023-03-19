@@ -1,0 +1,181 @@
+@import "../../../styles/variables.scss";
+
+.footer {
+  min-height: 200px;
+  background: $text-900;
+  color: $text-200;
+}
+
+.upperFooter {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 40px 10vw;
+}
+
+.logo {
+  height: 120px;
+  width: auto;
+  aspect-ratio: 1;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 500;
+
+  .footerLink {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    column-gap: 8px;
+    padding: 8px 0;
+    margin-bottom: 2px;
+    transition: all 0.2s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 100%;
+      height: 3px;
+      background-color: currentColor;
+      border-radius: 100px;
+      max-width: 0;
+      transition: all 0.2s ease;
+      opacity: 0;
+    }
+
+    &:hover {
+      column-gap: 12px;
+      transition: all 0.2s ease;
+
+      &::after {
+        max-width: 100%;
+        opacity: 1;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}
+
+.headerLink {
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.headerLink:last-child {
+  padding-bottom: 0;
+}
+
+.mobileSocials {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+.socials {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.social {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+
+  &:hover {
+    scale: 1.16;
+  }
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  width: 100%;
+}
+
+.follow {
+  display: none;
+}
+
+.bottom {
+  display: flex;
+  padding: 16px 10vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  font-weight: 500;
+  background-color: $text-400;
+  color: $white;
+  column-gap: 40px;
+  row-gap: 16px;
+}
+
+.bottomLink {
+  font-weight: 700;
+  position: relative;
+  width: fit-content;
+}
+
+.bottomLink::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba($color: $white, $alpha: 0.25);
+}
+
+.dark {
+  color: $white;
+  background-color: $text-200 !important;
+
+  .bottom {
+    background-color: $text-900;
+    color: $text-400;
+  }
+  .bottomLink::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: $text-400;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .left {
+    width: fit-content;
+  }
+
+  .mobileSocials {
+    display: none;
+  }
+
+  .logo {
+    height: 160px;
+
+  }
+
+  .follow {
+    display: block;
+  }
+
+  .bottom {
+    flex-direction: row;
+  }
+}
