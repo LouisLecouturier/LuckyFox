@@ -87,7 +87,7 @@ const Slideshow = ({ events }) => {
               events.map((event, index) => {
                 return (
                   <Link
-                    href={`/event/${event.id}`}
+                    href="/event"
                     key={index}
                     className={`${styles.event}`}
                   >

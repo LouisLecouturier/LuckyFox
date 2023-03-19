@@ -67,26 +67,26 @@ const Event = () => {
           <div className={styles.eventSection}>
             <h3>Description</h3>
             <p>
-              Le Gala annuel de la FGES est l'un des événements les plus
-              attendus de l'année universitaire, réunissant étudiants,
+              Le Gala annuel de la FGES est l&apos;un des événements les plus
+              attendus de l&apos;année universitaire, réunissant étudiants,
               professeurs, anciens élèves et invités pour une soirée de
               célébration et de divertissement.
             </p>
             <p>
               Cette année, la soirée aura lieu au prestigieux Lille Grand
-              Palais, offrant un cadre élégant et luxueux pour l'occasion. Les
-              invités pourront profiter d'une soirée remplie de musique
-              entraînante, de jeux et de concours divertissants, ainsi que d'un
+              Palais, offrant un cadre élégant et luxueux pour l&apos;occasion. Les
+              invités pourront profiter d&apos;une soirée remplie de musique
+              entraînante, de jeux et de concours divertissants, ainsi que d&apos;un
               délicieux apéritif dînatoire avec des mets raffinés et des
               boissons exquises. La décoration soigneusement choisie ajoutera
               une touche supplémentaire de glamour et de sophistication à
-              l'événement.
+              l&apos;événement.
             </p>
             <p>
-              C'est donc un événement à ne pas manquer pour tous les étudiants
+              C&apos;est donc un événement à ne pas manquer pour tous les étudiants
               désireux de célébrer leur année universitaire tout en élargissant
               leur réseau professionnel. En somme, le gala annuel de la FGES est
-              un événement incontournable de l'année universitaire, offrant une
+              un événement incontournable de l&apos;année universitaire, offrant une
               soirée inoubliable dans un cadre luxueux et sophistiqué au Lille
               Grand Palais.{" "}
             </p>

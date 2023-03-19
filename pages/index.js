@@ -43,8 +43,7 @@ export default function Home() {
                 <p className={styles.paragraph}>
                   Notre équipe de <strong>cowboys</strong> et <strong>cowgirls</strong> passionnés a travaillé dur{" "}
                   pour créer une programmation variée qui reflète notre esprit{" "}
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  d'<strong>aventure</strong> et de{" "}
+                  d&apos;<strong>aventure</strong> et de{" "}
                   <strong>convivialité</strong>.
                 </p>
                 <p className={styles.paragraph}>
@@ -52,11 +51,11 @@ export default function Home() {
                   <strong>Afterwork</strong>, à un{" "}
                   <strong>tournoi sportif</strong> ou à une journée de{" "}
                   <strong>bénévolat</strong>, nous avons quelque chose pour{" "}
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  vous. Consultez notre <strong>calendrier d'événements</strong>{" "}
+
+                  vous. Consultez notre <strong>calendrier d&apos;événements</strong>{" "}
                   pour découvrir toutes les activités passionnantes que nous{" "}
                   avons en réserve pour vous.
-                </p>
+                </p>ƒ
                 <p className={styles.paragraph}>
                   Alors, préparez votre chapeau de cowboy et <strong>rejoignez-nous</strong> pour
                   une année remplie de souvenirs mémorables !
@@ -134,8 +133,8 @@ export default function Home() {
                   une expérience étudiante inoubliable.
                 </p>
                 <p className={styles.paragraph}>
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  Jetez un coup d'œil à nos sponsors et leur <strong>contribution</strong> à la{" "}
+
+                  Jetez un coup d&apos;œil à nos sponsors et leur <strong>contribution</strong> à la{" "}
                   vie étudiante de notre université.
                 </p>
               </div>

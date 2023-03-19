@@ -79,7 +79,7 @@ const Program = () => {
             ) : (
               <li>
                 <h3>
-                  Pas d'événements à venir pour le moment ! Revenez plus tard 😏
+                  Pas d&apos;événements à venir pour le moment ! Revenez plus tard 😏
                 </h3>
               </li>
             )}

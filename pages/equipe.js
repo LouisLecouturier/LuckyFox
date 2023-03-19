@@ -100,7 +100,7 @@ const Equipe = () => {
       <main className="main">
         <section className="section dark">
           <h2 className="sectionTitle">Notre équipe</h2>
-          <p>Découvrez la team derrière le BDE !</p>
+          <p>Découvrez notre équipe de cowboys et cowgirls prêts à vous organiser une année inoubliable !</p>
           {poles.map((pole) => {
             return (
               <Pole key={pole.id} name={pole.name} members={pole.members} />
